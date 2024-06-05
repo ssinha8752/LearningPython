@@ -1,33 +1,40 @@
 from turtle import  Turtle, Screen
+import random
 
-tim=Turtle()
-tom=Turtle()
+colors=["red","yellow","green","blue","purple","orange"]
+all_turtles=[]
+race=False
 screen=Screen()
 
-def move_forward():
-    tim.forward(10)
+screen.setup(500,400)
 
-def move_backward():
-    tim.backward(10)
-
-def move_clockwise():
-    tim.right(10)
-
-def move_counter_clockwise():
-    tim.left(10)
-
-def clean():
-    tim.clear()
-    tim.penup()
-    tim.home()
+bet=screen.textinput(title="Bet?", prompt="Turtle?")
+if bet:
+    race=True
 
 
+tim=Turtle()
 
-screen.listen()
-screen.onkey(key="w",fun=move_forward)
-screen.onkey(key="s",fun=move_backward)
-screen.onkey(key="d",fun=move_clockwise)
-screen.onkey(key="a",fun=move_counter_clockwise)
-screen.onkey(key="c",fun=clean)
+for i in range(len(colors)):
+    obj=Turtle()
+    obj.speed("fastest")
+    obj.color(colors[i])
+    obj.shape("turtle")
+    obj.penup()
+    obj.goto(x=-240,y=-120+(35*i))
+    all_turtles.append(obj)
+
+while race:
+    for t in all_turtles:
+        if t.xcor() > 230:
+            race=False
+            win_color=t.pencolor()
+            if win_color==bet:
+                print("You Win!!!")
+            else:
+                print(f"You Lose!!!, winner is {win_color}")
+        random_distance=random.randint(0,10)
+        t.forward(random_distance)
+
 
 screen.exitonclick()
