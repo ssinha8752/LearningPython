@@ -10,11 +10,7 @@ class Snake:
 
     def create_snake(self):
         for i in starting_pos:
-            new_block = Turtle("square")
-            new_block.color("white")
-            new_block.penup()
-            new_block.goto(i)
-            self.segments.append(new_block)
+            self.add_block(i)
 
     def move(self):
         for i in range(len(self.segments) - 1,0,-1):
@@ -22,6 +18,17 @@ class Snake:
             new_y = self.segments[i - 1].ycor()
             self.segments[i].goto(new_x,new_y)
         self.segments[0].forward(20)
+
+
+    def add_block(self,position):
+        new_block = Turtle("square")
+        new_block.color("white")
+        new_block.penup()
+        new_block.goto(position)
+        self.segments.append(new_block)
+
+    def extend_snake(self):
+        self.add_block(self.segments[-1].position())
 
     def up(self):
         if self.segments[0].heading()!=270:
