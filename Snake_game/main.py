@@ -33,13 +33,14 @@ while game_on:
         point.score_inc()
 
     if snake.segments[0].xcor() > 280 or snake.segments[0].xcor() < -280 or snake.segments[0].ycor() > 290 or snake.segments[0].ycor() < -290:
-        point.end_game()
-        game_on=False
+        point.reset()
+        snake.reset()
 
     for seg in snake.segments[1:]:
         if snake.segments[0].distance(seg)<10:
             game_on=True
-            point.end_game()
+            point.reset()
+            snake.reset()
 
 
 
