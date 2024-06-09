@@ -1,5 +1,4 @@
-with open("my_text.txt", mode="a") as file:
-    file.write("\nI am th best")
+with open("C:/Users/Shubham/OneDrive/Desktop/my_text.txt") as file:
     contacts=file.read()
 
     print(contacts)
