@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89e0dad5-5a46-4ccd-ad8e-16f782a60d7b" name="Changes" comment="[Shubham][7-June] Snake Game" />
+    <list default="true" id="89e0dad5-5a46-4ccd-ad8e-16f782a60d7b" name="Changes" comment="[Shubham][7-June] Snake Game">
+      <change afterPath="$PROJECT_DIR$/DataPython/2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataPython/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataPython/squirrel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataPython/weather_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake_game/main_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Snake_game/main_text.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +50,7 @@
     "Python.quiz_brain.executor": "Run",
     "Python.scoreboard.executor": "Run",
     "Python.snake.executor": "Run",
+    "Python.squirrel.executor": "Run",
     "Python.turtle_main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -52,6 +60,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Shubham\PycharmProjects\pythonProject1\DataPython" />
       <recent name="C:\Users\Shubham\PycharmProjects\pythonProject1\Pong" />
     </key>
   </component>
