@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e0dad5-5a46-4ccd-ad8e-16f782a60d7b" name="Changes" comment="[Shubham][7-June] Snake Game">
-      <change afterPath="$PROJECT_DIR$/NATO/f1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NATO/f2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NATO/NATOmain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NATO/nato_phonetic_alphabet.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NATO/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/NATO/main.py" afterDir="false" />
     </list>
@@ -58,6 +58,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Shubham\PycharmProjects\pythonProject1\NATO" />
       <recent name="C:\Users\Shubham\PycharmProjects\pythonProject1\US_states" />
       <recent name="C:\Users\Shubham\PycharmProjects\pythonProject1\DataPython" />
       <recent name="C:\Users\Shubham\PycharmProjects\pythonProject1\Pong" />

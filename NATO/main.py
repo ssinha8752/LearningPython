@@ -1,27 +1,35 @@
-import turtle
+student_dict = {
+    "student": ["Angela", "James", "Lily"], 
+    "score": [56, 76, 98]
+}
+
+#Looping through dictionaries:
+for (key, value) in student_dict.items():
+    #Access key and value
+    pass
+
 import pandas
-from collections import Counter
+student_data_frame = pandas.DataFrame(student_dict)
 
-new_list = [n*2 for n in range(1,5)]
-print(new_list)
+#Loop through rows of a data frame
+for (index, row) in student_data_frame.iterrows():
+    #Access index and row
+    #Access row.student or row.score
+    pass
 
-names = ["Asdkfbj","Foidh","Sdvuog","Sfei","Mwei"]
-new=[name.upper() for name in names if len(name)>5]
-print(new)
+# Keyword Method with iterrows()
+# {new_key:new_value for (index, row) in df.iterrows()}
 
+#TODO 1. Create a dictionary in this format:
+{"A": "Alfa", "B": "Bravo"}
 
-with open("f1.txt") as file1:
-  f1=file1.read()
-  f1_list=f1.strip().split('\n')
-  new_f1=[int(float(item)) for item in f1_list]
-  print(new_f1)
+nato=pandas.read_csv("nato_phonetic_alphabet.csv")
+print(nato)
 
-with open("f2.txt") as file2:
-  f2=file2.read()
-  f2_list = f2.strip().split('\n')
-  new_f2 = [int(float(item)) for item in f2_list]
-  print(new_f2)
+nato_dict={row.letter:row.code for (key,row) in nato.iterrows()}
+print(nato_dict)
+#TODO 2. Create a list of the phonetic code words from a word that the user inputs.
 
-
-result = [item for item in new_f1 if item in new_f2]
-print(result)
+name=input().upper()
+name_list=[nato_dict[letter] for letter in name]
+print(name_list)
