@@ -12,7 +12,7 @@ import pandas
 student_data_frame = pandas.DataFrame(student_dict)
 
 for (index, row) in student_data_frame.iterrows():
-    #Access row.student or row.sco
+    #Access row.student or row.sc
     pass
 
 # Keyword Method with iterrows()
