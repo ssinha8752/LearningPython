@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e0dad5-5a46-4ccd-ad8e-16f782a60d7b" name="Changes" comment="[Shubham][7-June] Snake Game">
-      <change afterPath="$PROJECT_DIR$/Crash_Course/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crash_Course/numpy_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +41,7 @@
     "Python.colorgram_main.executor": "Run",
     "Python.main.executor": "Run",
     "Python.main_text.executor": "Run",
+    "Python.numpy_main.executor": "Run",
     "Python.player.executor": "Run",
     "Python.question_model.executor": "Run",
     "Python.quiz_brain.executor": "Run",
