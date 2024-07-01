@@ -29,7 +29,7 @@ y=x**2
 #axes2.plot(y,x)
 #axes2.set_title('S')
 
-fig,axes=plt.subplots(nrows=1,ncols=1, figsize=(1,1)) #makes the axes automatically -> nrows and cols to divide the canvas and  figsize to describe the graph of the canva
+fig,axes=plt.subplots(nrows=1,ncols=1, figsize=(1,1)) #makes the axes automatically -> nrows and cols to divide the canvas and  figsize to describe the graph of the canvas
 plt.tight_layout()
 
 plt.plot(x,x**2, label='Sq')
