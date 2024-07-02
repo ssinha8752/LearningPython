@@ -55,11 +55,31 @@ print(tips.head())
 #plt.xlabel('Day')
 #plt.ylabel('Sex')
 
-df=pd.DataFrame(flights)
+#df=pd.DataFrame(flights)
 
-pivot_table = df.pivot_table(index='month', columns='year', values='passengers')
+#pivot_table = df.pivot_table(index='month', columns='year', values='passengers')
 #sns.heatmap(pivot_table)
 
-sns.clustermap(pivot_table)
+#sns.clustermap(pivot_table)
+#plt.show()
+
+iris = sns.load_dataset('iris')
+#print(iris.head())
+
+#print(iris.species.unique())
+
+#g = sns.PairGrid(iris) #shows empty pairGrid
+#g.map_diag(sns.displot) #maps through the diagnoal of the pairgrid
+#g.map_upper(plt.scatter) #maps through the upper half of the diagnoal
+#g.map_lower(sns.kdeplot)# maps through the lower half of the diagnoal
+
+#g=sns.FacetGrid(data=tips,col='time',row='smoker') #make grids for specified rows and cols
+#g.map(sns.displot,'total_bill') #create the graph as per the rows and columns
+
+
+
+sns.lmplot(data=tips,x='total_bill',y='tip',col='sex')#Linear regression
 plt.show()
+
+
 
