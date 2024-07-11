@@ -5,8 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e0dad5-5a46-4ccd-ad8e-16f782a60d7b" name="Changes" comment="[Shubham][7-June] Snake Game">
-      <change afterPath="$PROJECT_DIR$/.venv/Linear_Regression/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib-3.9.0.dist-info/DELVEWHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib-3.9.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib-3.9.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib-3.9.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib-3.9.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib-3.9.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib-3.9.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/_c_internal_utils.cp312-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/_c_internal_utils.cp312-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/_image.cp312-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/_image.cp312-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/_path.cp312-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/_path.cp312-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/_qhull.cp312-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/_qhull.cp312-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/_tri.cp312-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/_tri.cp312-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/_ttconv.cp312-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/_ttconv.cp312-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/axes/_axes.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/axes/_axes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/axes/_axes.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/axes/_axes.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/axes/_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/axes/_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/axis.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/axis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backend_bases.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backend_bases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backends/_backend_agg.cp312-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backends/_backend_agg.cp312-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backends/_backend_tk.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backends/_backend_tk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backends/_tkagg.cp312-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backends/_tkagg.cp312-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backends/backend_gtk3cairo.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backends/backend_gtk3cairo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backends/backend_gtk4.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backends/backend_gtk4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backends/backend_gtk4cairo.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backends/backend_gtk4cairo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backends/registry.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backends/registry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/cm.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/cm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/cm.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/cm.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/colorbar.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/colorbar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/colors.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/colors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/container.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/container.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/container.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/container.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/figure.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/figure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/figure.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/figure.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/font_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/font_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/ft2font.cp312-win_amd64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/ft2font.cp312-win_amd64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/gridspec.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/gridspec.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/mpl-data/sample_data/Stocks.csv" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/mpl-data/sample_data/Stocks.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/mpl-data/sample_data/data_x_x2_x3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/mpl-data/sample_data/data_x_x2_x3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/mpl-data/sample_data/msft.csv" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/mpl-data/sample_data/msft.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/pyplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/pyplot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/testing/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/testing/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/testing/__init__.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/testing/__init__.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_axes.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_axes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_backend_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_backend_template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_backends_interactive.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_backends_interactive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_colors.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_colors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_figure.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_figure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_pickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_ticker.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_ticker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/tests/test_transforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/ticker.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/ticker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/transforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/widgets.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/widgets.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/mpl_toolkits/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/mpl_toolkits/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/mpl_toolkits/mplot3d/tests/test_axes3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/mpl_toolkits/mplot3d/tests/test_axes3d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Linear_Regression/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Linear_Regression/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
