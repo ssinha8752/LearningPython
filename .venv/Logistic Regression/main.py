@@ -47,9 +47,27 @@ train=pd.concat([train,sex,emb],axis=1)
 
 train.drop(['Sex','Embarked','Name','Ticket','PassengerId'], axis=1,inplace=True)
 
-print(train.head())
+X=train.drop('Survived',axis=1)
+Y=train['Survived']
+
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import classification_report, confusion_matrix
+
+X_train,X_test,Y_train, Y_test = train_test_split(X,Y,test_size=0.33, random_state=101)
 
 
+logmodel = LogisticRegression()
+
+logmodel.fit(X_train,Y_train)
+
+lm = LinearRegression()
+
+lm.fit(X_train,Y_train)
+
+predictions = logmodel.predict((X_test))
+
+print(confusion_matrix(Y_test,predictions))
 
 
 
