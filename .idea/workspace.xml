@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e0dad5-5a46-4ccd-ad8e-16f782a60d7b" name="Changes" comment="[Shubham][7-June] Snake Game">
-      <change afterPath="$PROJECT_DIR$/Recommender/Movie_ID.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recommender/RS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recommender/u.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recommender/u.item" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recommender/RS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recommender/RS.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
