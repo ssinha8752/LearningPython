@@ -41,17 +41,17 @@ movie_credits['genres']=movie_credits['genres'].apply(convert)
 movie_credits['keywords']=movie_credits['keywords'].apply(convert)
 movie_credits['cast']=movie_credits['cast'].apply(convert3)
 movie_credits['crew']=movie_credits['crew'].apply(job_finder)
-movie_credits['overview']=movie_credits['overview'].apply(lambda x:x.split())
 
-movie_credits['genres'].apply(lambda x:[i.replace(" ","") for i in x])
-movie_credits['keywords'].apply(lambda x:[i.replace(" ","") for i in x])
-movie_credits['cast'].apply(lambda x:[i.replace(" ","") for i in x])
-movie_credits['crew'].apply(lambda x:[i.replace(" ","") for i in x])
-movie_credits['overview'].apply(lambda x:[i.replace(" ","") for i in x])
+movie_credits['genres']=movie_credits['genres'].apply(lambda x:[i.replace(" ","") for i in x])
+movie_credits['keywords']=movie_credits['keywords'].apply(lambda x:[i.replace(" ","") for i in x])
+movie_credits['cast']=movie_credits['cast'].apply(lambda x:[i.replace(" ","") for i in x])
+movie_credits['crew']=movie_credits['crew'].apply(lambda x:[i.replace(" ","") for i in x])
 
-movie_credits['tags']=movie_credits['overview']
+movie_credits['overview'] = movie_credits['overview'].apply(lambda x:x.split())
+movie_credits['tags'] = movie_credits['overview'] + movie_credits['genres'] + movie_credits['keywords'] + movie_credits['cast'] + movie_credits['crew']
 
-df=movie_credits[['id','title','tags']]
+df = movie_credits.drop(columns=['overview','genres','keywords','cast','crew'])
 
+df['tags'] = df['tags'].apply(lambda x: " ".join(x))
 
-print(movie_credits['overview'])
+print(df['tags'][0])
