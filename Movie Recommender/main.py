@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 import ast
+from sklearn.feature_extraction.text import CountVectorizer
+import nltk
 
 movies = pd.read_csv('tmdb_5000_movies.csv')
 credits = pd.read_csv('tmdb_5000_credits.csv')
@@ -53,5 +55,9 @@ movie_credits['tags'] = movie_credits['overview'] + movie_credits['genres'] + mo
 df = movie_credits.drop(columns=['overview','genres','keywords','cast','crew'])
 
 df['tags'] = df['tags'].apply(lambda x: " ".join(x))
+df['tags'] = df['tags'].apply(lambda x: x.lower())
 
-print(df['tags'][0])
+cv=CountVectorizer(max_features=5000,stop_words='english')
+
+vectors=cv.fit_transform(df['tags']).toarray()
+print(cv.get_feature_names())

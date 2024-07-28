@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e0dad5-5a46-4ccd-ad8e-16f782a60d7b" name="Changes" comment="[Shubham][7-June] Snake Game">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Movie Recommender/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Movie Recommender/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,42 +35,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python tests.Doctests in range.executor": "Run",
-    "Python.HOF.executor": "Run",
-    "Python.KNN_project.executor": "Run",
-    "Python.Plotly_Cufflinks_main.executor": "Run",
-    "Python.Project.executor": "Run",
-    "Python.RS.executor": "Run",
-    "Python.ball.executor": "Run",
-    "Python.car_manager.executor": "Run",
-    "Python.choropleth_main.executor": "Run",
-    "Python.colorgram.executor": "Run",
-    "Python.colorgram_main.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main_text.executor": "Run",
-    "Python.matplotlib_main.executor": "Run",
-    "Python.numpy_main.executor": "Run",
-    "Python.panda_main.executor": "Run",
-    "Python.player.executor": "Run",
-    "Python.project.executor": "Run",
-    "Python.question_model.executor": "Run",
-    "Python.quiz_brain.executor": "Run",
-    "Python.salary.executor": "Run",
-    "Python.scoreboard.executor": "Run",
-    "Python.seaborn_main.executor": "Run",
-    "Python.snake.executor": "Run",
-    "Python.squirrel.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.turtle_main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "movierecommender",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Doctests in range.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HOF.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KNN_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Plotly_Cufflinks_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RS.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ball.executor&quot;: &quot;Run&quot;,
+    &quot;Python.car_manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.choropleth_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.colorgram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.colorgram_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_text.executor&quot;: &quot;Run&quot;,
+    &quot;Python.matplotlib_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numpy_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.panda_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.player.executor&quot;: &quot;Run&quot;,
+    &quot;Python.project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.question_model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quiz_brain.executor&quot;: &quot;Run&quot;,
+    &quot;Python.salary.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scoreboard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.seaborn_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snake.executor&quot;: &quot;Run&quot;,
+    &quot;Python.squirrel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;movierecommender&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Shubham\PycharmProjects\pythonProject1\K-clustering" />
