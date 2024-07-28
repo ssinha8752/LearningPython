@@ -1,6 +1,9 @@
 import numpy as np
 import pandas as pd
 import ast
+from sklearn.feature_extraction.text import CountVectorizer
+from nltk.stem.porter import PorterStemmer
+from sklearn.metrics.pairwise import cosine_similarity
 
 movies = pd.read_csv('tmdb_5000_movies.csv')
 credits = pd.read_csv('tmdb_5000_credits.csv')
@@ -53,5 +56,32 @@ movie_credits['tags'] = movie_credits['overview'] + movie_credits['genres'] + mo
 df = movie_credits.drop(columns=['overview','genres','keywords','cast','crew'])
 
 df['tags'] = df['tags'].apply(lambda x: " ".join(x))
+df['tags'] = df['tags'].apply(lambda x: x.lower())
 
-print(df['tags'][0])
+cv=CountVectorizer(max_features=5000,stop_words='english')
+
+vectors=cv.fit_transform(df['tags']).toarray()
+
+ps=PorterStemmer()
+
+def stem(text):
+    L=[]
+    for i in text.split():
+        L.append(ps.stem(i))
+    return " ".join(L)
+
+
+df['tags']=df['tags'].apply(stem)
+
+similarity=cosine_similarity(vectors)
+
+
+def recommed(movie):
+    movie_index=df[df['title']==movie].index[0]
+    distances = similarity[movie_index]
+    recommeded_movies = sorted(list(enumerate(distances)),reverse=True,key=lambda x:x[1])[1:6]
+
+    for i in recommeded_movies:
+        print(df.iloc[i[0]].title)
+
+recommed('Batman Begins')
