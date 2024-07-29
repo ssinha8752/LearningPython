@@ -1,3 +1,5 @@
+import pickle
+
 import numpy as np
 import pandas as pd
 import ast
@@ -84,4 +86,4 @@ def recommed(movie):
     for i in recommeded_movies:
         print(df.iloc[i[0]].title)
 
-recommed('Batman Begins')
+pickle.dump(df,open(''))
