@@ -1,6 +1,5 @@
 import time
-from turtle import Turtle,Screen
-
+from turtle import Turtle
 from car_manager import CarManager
 from player import Player
 from scoreboard import  Scoreboard
