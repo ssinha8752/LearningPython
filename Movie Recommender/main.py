@@ -85,6 +85,3 @@ def recommed(movie):
 
     for i in recommeded_movies:
         print(df.iloc[i[0]].title)
-
-pickle.dump(df,open('movies.pkl','wb'))
-pickle.dump(similarity,open('similarity.pkl','wb'))
